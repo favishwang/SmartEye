@@ -13,6 +13,8 @@ namespace SmartEye
         private UnityCameraReader _cameraReader = null!;
         private ImageProcessor _imageProcessor = null!;
         private byte[] _frameBuffer = null!;
+        private byte[] _lastDisplayedFrame = null!;
+        private bool _hasDisplayedFrame;
         private Timer _timer = null!;
         private int _retryCount;
 
@@ -21,10 +23,13 @@ namespace SmartEye
         private readonly ThresholdEffect _thresholdEffect = new();
         private readonly ROIManager _roiManager = new();
         private readonly ROIDetectorEffect _roiEffect = new();
+        private readonly CarDetector _carDetector = new();
         private LogForm? _logForm;
 
         private bool _grayscaleEnabled;
         private bool _roiEnabled;
+        private bool _carRoiDisplayed;
+        private bool _carDetectionEnabled;
 
         private long _frameCount;
         private DateTime _fpsStartTime = DateTime.Now;
@@ -44,8 +49,10 @@ namespace SmartEye
             _cameraReader = new UnityCameraReader { OnLog = AddLog };
             _imageProcessor = new ImageProcessor { OnLog = AddLog };
             _roiEffect.ROIManager = _roiManager;
+            _carDetector.OnLog = AddLog;
             _logForm = new LogForm();
             _frameBuffer = new byte[UnityCameraReader.FrameSize];
+            _lastDisplayedFrame = new byte[UnityCameraReader.FrameSize];
 
             IntensitySlider.Value = 127;
             ThresholdSlider.Value = 127;
@@ -67,7 +74,8 @@ namespace SmartEye
             if (ChkIntensity.Checked) effects.Add(_intensityEffect);
             if (_grayscaleEnabled) effects.Add(_grayscaleEffect);
             if (ChkThreshold.Checked) effects.Add(_thresholdEffect);
-            if (_roiEnabled) effects.Add(_roiEffect);
+            if (_carRoiDisplayed) { _roiEffect.SkipDetection = true; effects.Add(_roiEffect); }
+            else if (_roiEnabled) { _roiEffect.SkipDetection = false; effects.Add(_roiEffect); }
 
             _imageProcessor.ActiveEffects = effects;
         }
@@ -81,6 +89,7 @@ namespace SmartEye
 
         private void BtnROI_Click(object? sender, EventArgs e)
         {
+            _carRoiDisplayed = false;
             _roiEnabled = !_roiEnabled;
             UpdateButtonState(BtnROI, _roiEnabled);
             UpdateEffectPipeline();
@@ -135,12 +144,18 @@ namespace SmartEye
             if (bitmap == null)
                 return;
 
+            Buffer.BlockCopy(_frameBuffer, 0, _lastDisplayedFrame, 0, UnityCameraReader.FrameSize);
+            _hasDisplayedFrame = true;
+
             _frameCount++;
             var elapsed = (DateTime.Now - _fpsStartTime).TotalSeconds;
             _lastFps = elapsed > 0 ? (int)(_frameCount / elapsed) : 0;
 
+            if (_carDetectionEnabled)
+                RunCarDetection();
+
             UpdateCameraView(bitmap);
-            if (_roiEnabled)
+            if (_roiEnabled || _carRoiDisplayed)
                 UpdateRoiDisplay();
         }
 
@@ -149,7 +164,7 @@ namespace SmartEye
             if (TxtRoiInfo == null || TxtRoiInfo.IsDisposed)
                 return;
 
-            var text = _roiEnabled ? _roiManager.ToDisplayText() : "ROI: 비활성";
+            var text = (_roiEnabled || _carRoiDisplayed) ? _roiManager.ToDisplayText() : "ROI: 비활성";
             void SetText()
             {
                 TxtRoiInfo.Text = text;
@@ -188,6 +203,45 @@ namespace SmartEye
             _logForm.AppendLog(line);
         }
 
+        private void BtnCarDetect_Click(object? sender, EventArgs e)
+        {
+            if (!_hasDisplayedFrame)
+            {
+                AddLog("[차량검출] 먼저 카메라 영상을 표시해 주세요.");
+                return;
+            }
+
+            _carDetectionEnabled = !_carDetectionEnabled;
+            UpdateButtonState(BtnCarDetect, _carDetectionEnabled);
+
+            if (_carDetectionEnabled)
+            {
+                _carRoiDisplayed = true;
+                _roiEnabled = false;
+                UpdateButtonState(BtnROI, false);
+                AddLog("[차량검출] 연속 검출 ON");
+            }
+            else
+            {
+                _carRoiDisplayed = false;
+                AddLog("[차량검출] 연속 검출 OFF");
+            }
+
+            UpdateEffectPipeline();
+            UpdateRoiDisplay();
+        }
+
+        private void RunCarDetection()
+        {
+            if (!_hasDisplayedFrame) return;
+
+            using var bgr = ImageProcessor.RawToBgrMat(_lastDisplayedFrame, UnityCameraReader.Width, UnityCameraReader.Height);
+            if (bgr == null) return;
+
+            _roiManager.Update(_carDetector.Detect(bgr));
+            UpdateRoiDisplay();
+        }
+
         private void BtnLog_Click(object? sender, EventArgs e)
         {
             if (_logForm == null) return;
@@ -201,6 +255,7 @@ namespace SmartEye
             _timer?.Stop();
             _timer?.Dispose();
             _cameraReader?.Dispose();
+            _carDetector.Dispose();
             CameraViewArea.Image?.Dispose();
             _logForm?.Close();
             base.OnFormClosed(e);

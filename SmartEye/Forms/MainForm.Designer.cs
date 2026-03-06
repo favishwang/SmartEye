@@ -28,6 +28,7 @@ namespace SmartEye
             ChkThreshold = new CheckBox();
             BtnGrayscale = new Button();
             BtnROI = new Button();
+            BtnCarDetect = new Button();
             BtnLog = new Button();
             CameraViewArea = new PictureBox();
             RoiPanel = new Panel();
@@ -78,6 +79,7 @@ namespace SmartEye
             ToolbarPanel.Controls.Add(ChkThreshold);
             ToolbarPanel.Controls.Add(BtnGrayscale);
             ToolbarPanel.Controls.Add(BtnROI);
+            ToolbarPanel.Controls.Add(BtnCarDetect);
             ToolbarPanel.Controls.Add(BtnLog);
             ToolbarPanel.Dock = DockStyle.Top;
             ToolbarPanel.Location = new Point(0, 0);
@@ -165,9 +167,19 @@ namespace SmartEye
             BtnROI.UseVisualStyleBackColor = true;
             BtnROI.Click += BtnROI_Click;
             // 
+            // BtnCarDetect
+            // 
+            BtnCarDetect.Location = new Point(763, 3);
+            BtnCarDetect.Name = "BtnCarDetect";
+            BtnCarDetect.Size = new Size(100, 32);
+            BtnCarDetect.TabIndex = 4;
+            BtnCarDetect.Text = "차량 검출";
+            BtnCarDetect.UseVisualStyleBackColor = true;
+            BtnCarDetect.Click += BtnCarDetect_Click;
+            // 
             // BtnLog
             // 
-            BtnLog.Location = new Point(763, 3);
+            BtnLog.Location = new Point(869, 3);
             BtnLog.Name = "BtnLog";
             BtnLog.Size = new Size(80, 32);
             BtnLog.TabIndex = 3;
@@ -241,6 +253,7 @@ namespace SmartEye
         private FlowLayoutPanel ToolbarPanel;
         private Button BtnGrayscale;
         private Button BtnROI;
+        private Button BtnCarDetect;
         private PictureBox CameraViewArea;
         private Panel RoiPanel;
         private TextBox TxtRoiInfo;

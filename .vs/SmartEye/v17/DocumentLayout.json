@@ -3,18 +3,6 @@
   "WorkspaceRootPath": "D:\\_HwangInTae\\Github\\Favis\\SmartEye\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9B95BBCE-6F5E-49EE-A6E8-13C4A06CD360}|SmartEye\\SmartEye.csproj|d:\\_hwangintae\\github\\favis\\smarteye\\smarteye\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9B95BBCE-6F5E-49EE-A6E8-13C4A06CD360}|SmartEye\\SmartEye.csproj|solutionrelative:smarteye\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B95BBCE-6F5E-49EE-A6E8-13C4A06CD360}|SmartEye\\SmartEye.csproj|d:\\_hwangintae\\github\\favis\\smarteye\\smarteye\\feature\\effects\\roidetectoreffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B95BBCE-6F5E-49EE-A6E8-13C4A06CD360}|SmartEye\\SmartEye.csproj|solutionrelative:smarteye\\feature\\effects\\roidetectoreffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B95BBCE-6F5E-49EE-A6E8-13C4A06CD360}|SmartEye\\SmartEye.csproj|d:\\_hwangintae\\github\\favis\\smarteye\\smarteye\\feature\\roimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B95BBCE-6F5E-49EE-A6E8-13C4A06CD360}|SmartEye\\SmartEye.csproj|solutionrelative:smarteye\\feature\\roimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9B95BBCE-6F5E-49EE-A6E8-13C4A06CD360}|SmartEye\\SmartEye.csproj|d:\\_hwangintae\\github\\favis\\smarteye\\smarteye\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B95BBCE-6F5E-49EE-A6E8-13C4A06CD360}|SmartEye\\SmartEye.csproj|solutionrelative:smarteye\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,12 +11,52 @@
       "RelativeMoniker": "D:0:0:{9B95BBCE-6F5E-49EE-A6E8-13C4A06CD360}|SmartEye\\SmartEye.csproj|solutionrelative:smarteye\\smarteye.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B95BBCE-6F5E-49EE-A6E8-13C4A06CD360}|SmartEye\\SmartEye.csproj|d:\\_hwangintae\\github\\favis\\smarteye\\smarteye\\feature\\imageprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B95BBCE-6F5E-49EE-A6E8-13C4A06CD360}|SmartEye\\SmartEye.csproj|solutionrelative:smarteye\\feature\\imageprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ECE65545-3F9E-4A10-8192-D8DAA5773D3C}|CarDetectionTest\\CarDetectionTest.csproj|d:\\_hwangintae\\github\\favis\\smarteye\\cardetectiontest\\cardetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECE65545-3F9E-4A10-8192-D8DAA5773D3C}|CarDetectionTest\\CarDetectionTest.csproj|solutionrelative:cardetectiontest\\cardetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B95BBCE-6F5E-49EE-A6E8-13C4A06CD360}|SmartEye\\SmartEye.csproj|d:\\_hwangintae\\github\\favis\\smarteye\\smarteye\\forms\\logform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{ECE65545-3F9E-4A10-8192-D8DAA5773D3C}|CarDetectionTest\\CarDetectionTest.csproj|d:\\_hwangintae\\github\\favis\\smarteye\\cardetectiontest\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ECE65545-3F9E-4A10-8192-D8DAA5773D3C}|CarDetectionTest\\CarDetectionTest.csproj|solutionrelative:cardetectiontest\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B95BBCE-6F5E-49EE-A6E8-13C4A06CD360}|SmartEye\\SmartEye.csproj|d:\\_hwangintae\\github\\favis\\smarteye\\smarteye\\feature\\cardetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B95BBCE-6F5E-49EE-A6E8-13C4A06CD360}|SmartEye\\SmartEye.csproj|solutionrelative:smarteye\\feature\\cardetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B95BBCE-6F5E-49EE-A6E8-13C4A06CD360}|SmartEye\\SmartEye.csproj|d:\\_hwangintae\\github\\favis\\smarteye\\smarteye\\feature\\effects\\grayscaleeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B95BBCE-6F5E-49EE-A6E8-13C4A06CD360}|SmartEye\\SmartEye.csproj|solutionrelative:smarteye\\feature\\effects\\grayscaleeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B95BBCE-6F5E-49EE-A6E8-13C4A06CD360}|SmartEye\\SmartEye.csproj|d:\\_hwangintae\\github\\favis\\smarteye\\smarteye\\feature\\effects\\iimageeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B95BBCE-6F5E-49EE-A6E8-13C4A06CD360}|SmartEye\\SmartEye.csproj|solutionrelative:smarteye\\feature\\effects\\iimageeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B95BBCE-6F5E-49EE-A6E8-13C4A06CD360}|SmartEye\\SmartEye.csproj|d:\\_hwangintae\\github\\favis\\smarteye\\smarteye\\feature\\effects\\intensityeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B95BBCE-6F5E-49EE-A6E8-13C4A06CD360}|SmartEye\\SmartEye.csproj|solutionrelative:smarteye\\feature\\effects\\intensityeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B95BBCE-6F5E-49EE-A6E8-13C4A06CD360}|SmartEye\\SmartEye.csproj|d:\\_hwangintae\\github\\favis\\smarteye\\smarteye\\feature\\effects\\roidetectoreffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B95BBCE-6F5E-49EE-A6E8-13C4A06CD360}|SmartEye\\SmartEye.csproj|solutionrelative:smarteye\\feature\\effects\\roidetectoreffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B95BBCE-6F5E-49EE-A6E8-13C4A06CD360}|SmartEye\\SmartEye.csproj|d:\\_hwangintae\\github\\favis\\smarteye\\smarteye\\feature\\effects\\thresholdeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B95BBCE-6F5E-49EE-A6E8-13C4A06CD360}|SmartEye\\SmartEye.csproj|solutionrelative:smarteye\\feature\\effects\\thresholdeffect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B95BBCE-6F5E-49EE-A6E8-13C4A06CD360}|SmartEye\\SmartEye.csproj|d:\\_hwangintae\\github\\favis\\smarteye\\smarteye\\feature\\roimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B95BBCE-6F5E-49EE-A6E8-13C4A06CD360}|SmartEye\\SmartEye.csproj|solutionrelative:smarteye\\feature\\roimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B95BBCE-6F5E-49EE-A6E8-13C4A06CD360}|SmartEye\\SmartEye.csproj|D:\\_HwangInTae\\Github\\Favis\\SmartEye\\smarteye\\forms\\logform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9B95BBCE-6F5E-49EE-A6E8-13C4A06CD360}|SmartEye\\SmartEye.csproj|solutionrelative:smarteye\\forms\\logform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B95BBCE-6F5E-49EE-A6E8-13C4A06CD360}|SmartEye\\SmartEye.csproj|d:\\_hwangintae\\github\\favis\\smarteye\\smarteye\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9B95BBCE-6F5E-49EE-A6E8-13C4A06CD360}|SmartEye\\SmartEye.csproj|solutionrelative:smarteye\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B95BBCE-6F5E-49EE-A6E8-13C4A06CD360}|SmartEye\\SmartEye.csproj|d:\\_hwangintae\\github\\favis\\smarteye\\smarteye\\feature\\imageprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B95BBCE-6F5E-49EE-A6E8-13C4A06CD360}|SmartEye\\SmartEye.csproj|solutionrelative:smarteye\\feature\\imageprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,11 +66,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "CarDetector.cs",
+              "DocumentMoniker": "D:\\_HwangInTae\\Github\\Favis\\SmartEye\\CarDetectionTest\\CarDetector.cs",
+              "RelativeDocumentMoniker": "CarDetectionTest\\CarDetector.cs",
+              "ToolTip": "D:\\_HwangInTae\\Github\\Favis\\SmartEye\\CarDetectionTest\\CarDetector.cs",
+              "RelativeToolTip": "CarDetectionTest\\CarDetector.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAmwFIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T01:09:03.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IImageEffect.cs",
+              "DocumentMoniker": "D:\\_HwangInTae\\Github\\Favis\\SmartEye\\SmartEye\\Feature\\Effects\\IImageEffect.cs",
+              "RelativeDocumentMoniker": "SmartEye\\Feature\\Effects\\IImageEffect.cs",
+              "ToolTip": "D:\\_HwangInTae\\Github\\Favis\\SmartEye\\SmartEye\\Feature\\Effects\\IImageEffect.cs",
+              "RelativeToolTip": "SmartEye\\Feature\\Effects\\IImageEffect.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T00:48:39.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IntensityEffect.cs",
+              "DocumentMoniker": "D:\\_HwangInTae\\Github\\Favis\\SmartEye\\SmartEye\\Feature\\Effects\\IntensityEffect.cs",
+              "RelativeDocumentMoniker": "SmartEye\\Feature\\Effects\\IntensityEffect.cs",
+              "ToolTip": "D:\\_HwangInTae\\Github\\Favis\\SmartEye\\SmartEye\\Feature\\Effects\\IntensityEffect.cs",
+              "RelativeToolTip": "SmartEye\\Feature\\Effects\\IntensityEffect.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T00:48:39.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ThresholdEffect.cs",
+              "DocumentMoniker": "D:\\_HwangInTae\\Github\\Favis\\SmartEye\\SmartEye\\Feature\\Effects\\ThresholdEffect.cs",
+              "RelativeDocumentMoniker": "SmartEye\\Feature\\Effects\\ThresholdEffect.cs",
+              "ToolTip": "D:\\_HwangInTae\\Github\\Favis\\SmartEye\\SmartEye\\Feature\\Effects\\ThresholdEffect.cs",
+              "RelativeToolTip": "SmartEye\\Feature\\Effects\\ThresholdEffect.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T00:48:37.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CarDetector.cs",
+              "DocumentMoniker": "D:\\_HwangInTae\\Github\\Favis\\SmartEye\\SmartEye\\Feature\\CarDetector.cs",
+              "RelativeDocumentMoniker": "SmartEye\\Feature\\CarDetector.cs",
+              "ToolTip": "D:\\_HwangInTae\\Github\\Favis\\SmartEye\\SmartEye\\Feature\\CarDetector.cs",
+              "RelativeToolTip": "SmartEye\\Feature\\CarDetector.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAUwAQBAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T00:48:34.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "ROIDetectorEffect.cs",
               "DocumentMoniker": "D:\\_HwangInTae\\Github\\Favis\\SmartEye\\SmartEye\\Feature\\Effects\\ROIDetectorEffect.cs",
               "RelativeDocumentMoniker": "SmartEye\\Feature\\Effects\\ROIDetectorEffect.cs",
@@ -55,33 +148,71 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "MainForm.cs",
               "DocumentMoniker": "D:\\_HwangInTae\\Github\\Favis\\SmartEye\\SmartEye\\Forms\\MainForm.cs",
               "RelativeDocumentMoniker": "SmartEye\\Forms\\MainForm.cs",
               "ToolTip": "D:\\_HwangInTae\\Github\\Favis\\SmartEye\\SmartEye\\Forms\\MainForm.cs",
               "RelativeToolTip": "SmartEye\\Forms\\MainForm.cs",
-              "ViewState": "AgIAAIIAAAAAAAAAAAAAAJcAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAgwC4AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-04T05:38:53.201Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "SmartEye.csproj",
+              "DocumentMoniker": "D:\\_HwangInTae\\Github\\Favis\\SmartEye\\SmartEye\\SmartEye.csproj",
+              "RelativeDocumentMoniker": "SmartEye\\SmartEye.csproj",
+              "ToolTip": "D:\\_HwangInTae\\Github\\Favis\\SmartEye\\SmartEye\\SmartEye.csproj",
+              "RelativeToolTip": "SmartEye\\SmartEye.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-04T04:30:40.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "D:\\_HwangInTae\\Github\\Favis\\SmartEye\\CarDetectionTest\\Form1.cs",
+              "RelativeDocumentMoniker": "CarDetectionTest\\Form1.cs",
+              "ToolTip": "D:\\_HwangInTae\\Github\\Favis\\SmartEye\\CarDetectionTest\\Form1.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "CarDetectionTest\\Form1.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T00:53:10.483Z",
+              "EditorCaption": " [\uB514\uC790\uC778]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "ROIManager.cs",
               "DocumentMoniker": "D:\\_HwangInTae\\Github\\Favis\\SmartEye\\SmartEye\\Feature\\ROIManager.cs",
               "RelativeDocumentMoniker": "SmartEye\\Feature\\ROIManager.cs",
               "ToolTip": "D:\\_HwangInTae\\Github\\Favis\\SmartEye\\SmartEye\\Feature\\ROIManager.cs",
               "RelativeToolTip": "SmartEye\\Feature\\ROIManager.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAwwA0AAAApAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwCAAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-04T05:38:36.788Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
+              "Title": "GrayscaleEffect.cs",
+              "DocumentMoniker": "D:\\_HwangInTae\\Github\\Favis\\SmartEye\\SmartEye\\Feature\\Effects\\GrayscaleEffect.cs",
+              "RelativeDocumentMoniker": "SmartEye\\Feature\\Effects\\GrayscaleEffect.cs",
+              "ToolTip": "D:\\_HwangInTae\\Github\\Favis\\SmartEye\\SmartEye\\Feature\\Effects\\GrayscaleEffect.cs",
+              "RelativeToolTip": "SmartEye\\Feature\\Effects\\GrayscaleEffect.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T00:48:40.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "LogForm.cs [\uB514\uC790\uC778]",
               "DocumentMoniker": "D:\\_HwangInTae\\Github\\Favis\\SmartEye\\SmartEye\\Forms\\LogForm.cs",
               "RelativeDocumentMoniker": "SmartEye\\Forms\\LogForm.cs",
@@ -93,7 +224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 12,
               "Title": "MainForm.cs [\uB514\uC790\uC778]",
               "DocumentMoniker": "D:\\_HwangInTae\\Github\\Favis\\SmartEye\\SmartEye\\Forms\\MainForm.cs",
               "RelativeDocumentMoniker": "SmartEye\\Forms\\MainForm.cs",
@@ -105,7 +236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "ImageProcessor.cs",
               "DocumentMoniker": "D:\\_HwangInTae\\Github\\Favis\\SmartEye\\SmartEye\\Feature\\ImageProcessor.cs",
               "RelativeDocumentMoniker": "SmartEye\\Feature\\ImageProcessor.cs",
@@ -114,19 +245,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-04T04:30:48.863Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SmartEye",
-              "DocumentMoniker": "D:\\_HwangInTae\\Github\\Favis\\SmartEye\\SmartEye\\SmartEye.csproj",
-              "RelativeDocumentMoniker": "SmartEye\\SmartEye.csproj",
-              "ToolTip": "D:\\_HwangInTae\\Github\\Favis\\SmartEye\\SmartEye\\SmartEye.csproj",
-              "RelativeToolTip": "SmartEye\\SmartEye.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-04T04:30:40.615Z",
               "EditorCaption": ""
             }
           ]

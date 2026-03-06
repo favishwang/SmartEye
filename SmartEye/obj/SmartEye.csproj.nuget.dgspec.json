@@ -51,6 +51,10 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "dependencies": {
+            "Microsoft.ML.OnnxRuntime": {
+              "target": "Package",
+              "version": "[1.19.2, )"
+            },
             "OpenCvSharp4": {
               "target": "Package",
               "version": "[4.11.0.20250507, )"
